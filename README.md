@@ -2,6 +2,17 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+Home Page
+!["jungle-home-page"](add path)
+_main page displaying the products_
+
+Cart
+!["jungle-cart"](add path)
+_user cart with added items_
+
+Admin Page
+!["jungle-admin-dashboard"](add path)
+_admin dashboard for editing items for sale_
 
 ## Setup
 
