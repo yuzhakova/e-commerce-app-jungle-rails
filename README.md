@@ -1,17 +1,32 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Ruby (-v2.3.5) on Rails (-v4.2) as a student assignment for Lighhouse Labs full-stack web development program.
+TDD (test-driven development) practices are followed using RSpec library.
+Stripe platform is used for payments.
 
-Home Page
-!["jungle-home-page"](add path)
+## Project Features
+- Admin users can list and create new categories
+- Admins can add new products using the new category
+- Visitors can go to the registration page from any page in order to create an account
+- Visitors can sign up for a user account with e-mail, password, first name and last name
+- Visitors can sign in using e-mail and password
+- Visitors can log out from any page
+
+# Final Product Screenshots
+_app is served on http://localhost:3000/_
+## Home Page
+!["jungle-home-page"](https://raw.githubusercontent.com/yuzhakova/e-commerce-app-jungle-rails/master/public/screenshots-final-product/jungle-home-page.png)
+
 _main page displaying the products_
 
-Cart
-!["jungle-cart"](add path)
+## Cart
+!["jungle-cart"](https://raw.githubusercontent.com/yuzhakova/e-commerce-app-jungle-rails/master/public/screenshots-final-product/jungle-cart.png)
+
 _user cart with added items_
 
-Admin Page
-!["jungle-admin-dashboard"](add path)
+## Admin Page
+!["jungle-admin-dashboard"](https://raw.githubusercontent.com/yuzhakova/e-commerce-app-jungle-rails/master/public/screenshots-final-product/jungle-admin-dashboard.png)
+
 _admin dashboard for editing items for sale_
 
 ## Setup
@@ -33,6 +48,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
+* Ruby 2.3.5
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
+* Sass-rails
+* rspec-rails
 * Stripe
